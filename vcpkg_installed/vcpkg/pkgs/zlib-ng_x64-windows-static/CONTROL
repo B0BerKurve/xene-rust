@@ -1,0 +1,7 @@
+Package: zlib-ng
+Version: 2.0.7
+Depends: vcpkg-cmake:x64-windows
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 80b09d4ea49739253704d5efad27c53e68f6067a8eca1515585d3b03ba7a8880
+Description: zlib replacement with optimizations for 'next generation' systems

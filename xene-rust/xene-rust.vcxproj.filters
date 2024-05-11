@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{aade82b9-6b1c-4329-ba05-a16def26c33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\math">
+      <UniqueIdentifier>{a6be8072-8572-4e72-8ef5-d5badf2bd517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\il2cpp">
+      <UniqueIdentifier>{f14a9f9b-45aa-446b-872c-c36f4cdb6e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\protect">
+      <UniqueIdentifier>{556204a2-afc6-4725-b604-65275e985d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{b9c6bb3c-bd95-4e1e-a62e-2a1c8e4218e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\offsets">
+      <UniqueIdentifier>{82068d79-2f4b-406e-83ca-2cb2e0a62f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\class">
+      <UniqueIdentifier>{aa49759b-cdab-447d-af49-d760520ef597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\hooks">
+      <UniqueIdentifier>{dcc214ea-bb73-4011-96d4-cf9197a267aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\hooks\gui">
+      <UniqueIdentifier>{678fbec5-a3ad-40f9-9202-fa6d3c3af6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\hooks\baseplayer">
+      <UniqueIdentifier>{6656a3b9-9e63-4164-933c-64f3f717a828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features">
+      <UniqueIdentifier>{415f482b-a624-48bb-ba09-5037564deb28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\class\classes">
+      <UniqueIdentifier>{94ed43d9-e9a6-47f8-be6d-21060484a1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\aim">
+      <UniqueIdentifier>{1c152921-1663-40fa-95a8-a1b7d710a142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\esp">
+      <UniqueIdentifier>{abbc95e7-066d-4c6e-ac4f-1fa893222091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\misc">
+      <UniqueIdentifier>{4773e489-f4fe-49d5-959c-af15106679b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\gui">
+      <UniqueIdentifier>{790b068c-c064-473b-973b-867f799bda7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\radar">
+      <UniqueIdentifier>{9f4788de-f382-4f91-b382-58ba5dda8b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\notifications">
+      <UniqueIdentifier>{96362626-7b5a-4ca3-b445-ec78126b8825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\settings">
+      <UniqueIdentifier>{68b9554a-b63b-4827-a69f-2485bee49115}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dll_main.cpp" />
+    <ClCompile Include="utils\math.cpp">
+      <Filter>Utils\math</Filter>
+    </ClCompile>
+    <ClCompile Include="game\il2cpp.cpp">
+      <Filter>Utils\il2cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\memory.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="game\offsets.cpp">
+      <Filter>Game\offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="game\classes.cpp">
+      <Filter>Game\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEntity.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePlayer.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingBlock.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeClasses.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadHandler.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEyes.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelState.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerModel.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWalkMovement.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInput.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCombatEntity.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlayer.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Team.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>features\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>features\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>features\aim</Filter>
+    </ClCompile>
+    <ClCompile Include="radar.cpp">
+      <Filter>features\radar</Filter>
+    </ClCompile>
+    <ClCompile Include="buildingPrivelidge.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoTurret.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="HackableLockedCrate.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="notifications.cpp">
+      <Filter>features\notifications</Filter>
+    </ClCompile>
+    <ClCompile Include="StashContainer.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBlackoutOverlay.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SamSite.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="playerlist.cpp">
+      <Filter>features\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Game\class\classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.hpp" />
+    <ClInclude Include="utils\math.hpp">
+      <Filter>Utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="game\il2cpp.hpp">
+      <Filter>Utils\il2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\lazy_importer.hpp">
+      <Filter>Utils\protect</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\xor.hpp">
+      <Filter>Utils\protect</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\returnspoofer.hpp">
+      <Filter>Utils\protect</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\memory.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="game\offsets.hpp">
+      <Filter>Game\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="game\classes.hpp">
+      <Filter>Game\class</Filter>
+    </ClInclude>
+    <ClInclude Include="game\hooks.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ongui.h">
+      <Filter>Game\hooks\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="baseplayer.h">
+      <Filter>Game\hooks\baseplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="hinclude.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>features\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.hpp">
+      <Filter>features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>features\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>features\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>features\aim</Filter>
+    </ClInclude>
+    <ClInclude Include="radar.h">
+      <Filter>features\radar</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="raids.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="notifications.h">
+      <Filter>features\notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>features\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="playerlist.h">
+      <Filter>features\misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

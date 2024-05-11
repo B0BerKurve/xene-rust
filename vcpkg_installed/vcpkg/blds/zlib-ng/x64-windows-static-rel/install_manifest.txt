@@ -1,0 +1,4 @@
+C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/pkgs/zlib-ng_x64-windows-static/lib/zlibstatic-ng.lib
+C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/pkgs/zlib-ng_x64-windows-static/include/zlib-ng.h
+C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/pkgs/zlib-ng_x64-windows-static/include/zconf-ng.h
+C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/pkgs/zlib-ng_x64-windows-static/lib/pkgconfig/zlib-ng.pc

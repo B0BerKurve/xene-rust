@@ -1,0 +1,11 @@
+{
+    "name": "xene-rust",
+    "version": "1.0",
+    "dependencies": [
+        {
+          "name": "zlib-ng",
+          "platform": "windows"
+        }
+      ]
+  }
+  

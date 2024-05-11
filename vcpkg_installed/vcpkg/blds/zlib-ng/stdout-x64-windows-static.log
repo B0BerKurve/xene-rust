@@ -1,0 +1,15 @@
+-- Downloading https://github.com/zlib-ng/zlib-ng/archive/2.0.7.tar.gz -> zlib-ng-zlib-ng-2.0.7.tar.gz...
+-- Extracting source C:/Users/admin/AppData/Local/vcpkg/downloads/zlib-ng-zlib-ng-2.0.7.tar.gz
+-- Using source at C:/Users/admin/Documents/GitHub/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/src/2.0.7-e3901fc4d8.clean
+-- Found external ninja('1.11.0').
+-- Configuring x64-windows-static
+-- Building x64-windows-static-dbg
+-- Building x64-windows-static-rel
+-- Fixing pkgconfig file: C:/Users/admin/Documents/GitHub/xenesense-rust/vcpkg_installed/vcpkg/pkgs/zlib-ng_x64-windows-static/lib/pkgconfig/zlib-ng.pc
+-- Downloading https://mirror.msys2.org/mingw/i686/mingw-w64-i686-pkg-config-0.29.2-3-any.pkg.tar.zst;https://repo.msys2.org/mingw/i686/mingw-w64-i686-pkg-config-0.29.2-3-any.pkg.tar.zst;https://repo.msys2.org/mingw/i686/mingw-w64-i686-pkg-config-0.29.2-3-any.pkg.tar.zst;https://repo.msys2.org/mingw/i686/mingw-w64-i686-pkg-config-0.29.2-3-any.pkg.tar.zst;https://repo.msys2.org/mingw/i686/mingw-w64-i686-pkg-config-0.29.2-3-any.pkg.tar.zst;https://repo.msys2.org/mingw/i686/mingw-w64-i686-pkg-config-0.29.2-3-any.pkg.tar.zst -> mingw-w64-i686-pkg-config-0.29.2-3-any.pkg.tar.zst...
+-- Downloading https://mirror.msys2.org/mingw/i686/mingw-w64-i686-libwinpthread-git-9.0.0.6373.5be8fcd83-1-any.pkg.tar.zst;https://repo.msys2.org/mingw/i686/mingw-w64-i686-libwinpthread-git-9.0.0.6373.5be8fcd83-1-any.pkg.tar.zst;https://repo.msys2.org/mingw/i686/mingw-w64-i686-libwinpthread-git-9.0.0.6373.5be8fcd83-1-any.pkg.tar.zst;https://repo.msys2.org/mingw/i686/mingw-w64-i686-libwinpthread-git-9.0.0.6373.5be8fcd83-1-any.pkg.tar.zst;https://repo.msys2.org/mingw/i686/mingw-w64-i686-libwinpthread-git-9.0.0.6373.5be8fcd83-1-any.pkg.tar.zst;https://repo.msys2.org/mingw/i686/mingw-w64-i686-libwinpthread-git-9.0.0.6373.5be8fcd83-1-any.pkg.tar.zst -> mingw-w64-i686-libwinpthread-git-9.0.0.6373.5be8fcd83-1-any.pkg.tar.zst...
+-- Downloading https://mirror.msys2.org/msys/x86_64/msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst;https://repo.msys2.org/msys/x86_64/msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst;https://mirror.yandex.ru/mirrors/msys2/msys/x86_64/msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst;https://mirrors.tuna.tsinghua.edu.cn/msys2/msys/x86_64/msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst;https://mirrors.ustc.edu.cn/msys2/msys/x86_64/msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst;https://mirror.selfnet.de/msys2/msys/x86_64/msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst -> msys2-msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst...
+-- Using msys root at C:/Users/admin/AppData/Local/vcpkg/downloads/tools/msys2/5b9374e6ec2c4e17
+-- Fixing pkgconfig file: C:/Users/admin/Documents/GitHub/xenesense-rust/vcpkg_installed/vcpkg/pkgs/zlib-ng_x64-windows-static/debug/lib/pkgconfig/zlib-ng.pc
+-- Installing: C:/Users/admin/Documents/GitHub/xenesense-rust/vcpkg_installed/vcpkg/pkgs/zlib-ng_x64-windows-static/share/zlib-ng/copyright
+-- Performing post-build validation

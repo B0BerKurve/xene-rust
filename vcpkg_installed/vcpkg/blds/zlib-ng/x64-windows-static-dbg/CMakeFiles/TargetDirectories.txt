@@ -1,0 +1,6 @@
+C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-dbg/CMakeFiles/zlib.dir
+C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-dbg/CMakeFiles/edit_cache.dir
+C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-dbg/CMakeFiles/rebuild_cache.dir
+C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-dbg/CMakeFiles/list_install_components.dir
+C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-dbg/CMakeFiles/install.dir
+C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-dbg/CMakeFiles/install/local.dir

@@ -1,0 +1,1002 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:37 (project)"
+    message: |
+      The target system is: Windows - 10.0.19045 - AMD64
+      The host system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:37 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/3.28.0-rc1/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:37 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:37 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-fd1usa"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-fd1usa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-fd1usa'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4e736
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4e736.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_4e736.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4e736.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4e736.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_4e736.exe /implib:cmTC_4e736.lib /pdb:cmTC_4e736.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:354 (check_include_file)"
+    checks:
+      - "Looking for sys/sdt.h"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-8h6lpe"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-8h6lpe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SYS_SDT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-8h6lpe'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2bdf9
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2bdf9.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_2bdf9.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8h6lpe\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_2bdf9.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2bdf9.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_2bdf9.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8h6lpe\\CheckIncludeFile.c
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-8h6lpe\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/sdt.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:358 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-981jqq"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-981jqq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-981jqq'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c6769
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c6769.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_c6769.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-981jqq\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_c6769.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c6769.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_c6769.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-981jqq\\CheckIncludeFile.c
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-981jqq\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "CMakeLists.txt:364 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-ld1n2l"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-ld1n2l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-ld1n2l'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_21b33
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_21b33.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_21b33.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-ld1n2l\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_21b33.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_21b33.dir\\CheckIncludeFile.c.obj  /out:cmTC_21b33.exe /implib:cmTC_21b33.lib /pdb:cmTC_21b33.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "CMakeLists.txt:364 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-efek5y"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-efek5y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-efek5y'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7c4d7
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7c4d7.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_7c4d7.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-efek5y\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7c4d7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7c4d7.dir\\CheckIncludeFile.c.obj  /out:cmTC_7c4d7.exe /implib:cmTC_7c4d7.lib /pdb:cmTC_7c4d7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "CMakeLists.txt:364 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-q2rv1w"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-q2rv1w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-q2rv1w'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_fe369
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_fe369.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_fe369.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-q2rv1w\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_fe369.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_fe369.dir\\CheckIncludeFile.c.obj  /out:cmTC_fe369.exe /implib:cmTC_fe369.lib /pdb:cmTC_fe369.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:364 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-qwvda3"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-qwvda3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-qwvda3'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d47c6
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d47c6.dir\\OFF64_T.c.obj /FdCMakeFiles\\cmTC_d47c6.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwvda3\\OFF64_T.c
+        FAILED: CMakeFiles/cmTC_d47c6.dir/OFF64_T.c.obj 
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d47c6.dir\\OFF64_T.c.obj /FdCMakeFiles\\cmTC_d47c6.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwvda3\\OFF64_T.c
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwvda3\\OFF64_T.c(29): error C2065: 'off64_t': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwvda3\\OFF64_T.c(30): error C2065: 'off64_t': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwvda3\\OFF64_T.c(31): error C2065: 'off64_t': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwvda3\\OFF64_T.c(32): error C2065: 'off64_t': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qwvda3\\OFF64_T.c(33): error C2065: 'off64_t': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:368 (check_type_size)"
+    checks:
+      - "Check size of _off64_t"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-0tiu8e"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-0tiu8e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE__OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-0tiu8e'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_42813
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_42813.dir\\_OFF64_T.c.obj /FdCMakeFiles\\cmTC_42813.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-0tiu8e\\_OFF64_T.c
+        FAILED: CMakeFiles/cmTC_42813.dir/_OFF64_T.c.obj 
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_42813.dir\\_OFF64_T.c.obj /FdCMakeFiles\\cmTC_42813.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-0tiu8e\\_OFF64_T.c
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-0tiu8e\\_OFF64_T.c(29): error C2065: '_off64_t': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-0tiu8e\\_OFF64_T.c(30): error C2065: '_off64_t': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-0tiu8e\\_OFF64_T.c(31): error C2065: '_off64_t': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-0tiu8e\\_OFF64_T.c(32): error C2065: '_off64_t': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-0tiu8e\\_OFF64_T.c(33): error C2065: '_off64_t': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:372 (check_type_size)"
+    checks:
+      - "Check size of __off64_t"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-9qqgnl"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-9qqgnl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE___OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-9qqgnl'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_541eb
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_541eb.dir\\__OFF64_T.c.obj /FdCMakeFiles\\cmTC_541eb.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-9qqgnl\\__OFF64_T.c
+        FAILED: CMakeFiles/cmTC_541eb.dir/__OFF64_T.c.obj 
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_541eb.dir\\__OFF64_T.c.obj /FdCMakeFiles\\cmTC_541eb.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-9qqgnl\\__OFF64_T.c
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-9qqgnl\\__OFF64_T.c(29): error C2065: '__off64_t': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-9qqgnl\\__OFF64_T.c(30): error C2065: '__off64_t': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-9qqgnl\\__OFF64_T.c(31): error C2065: '__off64_t': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-9qqgnl\\__OFF64_T.c(32): error C2065: '__off64_t': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-9qqgnl\\__OFF64_T.c(33): error C2065: '__off64_t': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:380 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-mdkne8"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-mdkne8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-mdkne8'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_355f1
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3  -DCHECK_FUNCTION_EXISTS=fseeko /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_355f1.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_355f1.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mdkne8\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_355f1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_355f1.dir\\CheckFunctionExists.c.obj  /out:cmTC_355f1.exe /implib:cmTC_355f1.lib /pdb:cmTC_355f1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_355f1.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_355f1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_355f1.dir\\CheckFunctionExists.c.obj  /out:cmTC_355f1.exe /implib:cmTC_355f1.lib /pdb:cmTC_355f1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_355f1.dir\\CheckFunctionExists.c.obj /out:cmTC_355f1.exe /implib:cmTC_355f1.lib /pdb:cmTC_355f1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_355f1.dir/intermediate.manifest CMakeFiles\\cmTC_355f1.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol fseeko referenced in function main
+        cmTC_355f1.exe : fatal error LNK1120: 1 unresolved externals
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:384 (check_function_exists)"
+    checks:
+      - "Looking for strerror"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-7n8vp9"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-7n8vp9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STRERROR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-7n8vp9'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8d00a
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3  -DCHECK_FUNCTION_EXISTS=strerror /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8d00a.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_8d00a.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-7n8vp9\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8d00a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8d00a.dir\\CheckFunctionExists.c.obj  /out:cmTC_8d00a.exe /implib:cmTC_8d00a.lib /pdb:cmTC_8d00a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:389 (check_function_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-0c2ysi"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-0c2ysi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-0c2ysi'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a0eda
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_POSIX_C_SOURCE=200112L  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3  -DCHECK_FUNCTION_EXISTS=posix_memalign /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a0eda.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_a0eda.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-0c2ysi\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a0eda.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a0eda.dir\\CheckFunctionExists.c.obj  /out:cmTC_a0eda.exe /implib:cmTC_a0eda.lib /pdb:cmTC_a0eda.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_a0eda.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a0eda.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a0eda.dir\\CheckFunctionExists.c.obj  /out:cmTC_a0eda.exe /implib:cmTC_a0eda.lib /pdb:cmTC_a0eda.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a0eda.dir\\CheckFunctionExists.c.obj /out:cmTC_a0eda.exe /implib:cmTC_a0eda.lib /pdb:cmTC_a0eda.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a0eda.dir/intermediate.manifest CMakeFiles\\cmTC_a0eda.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol posix_memalign referenced in function main
+        cmTC_a0eda.exe : fatal error LNK1120: 1 unresolved externals
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:395 (check_function_exists)"
+    checks:
+      - "Looking for aligned_alloc"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-tc0wv5"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-tc0wv5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_ALIGNED_ALLOC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-tc0wv5'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8c9fe
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_ISOC11_SOURCE=1  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3  -DCHECK_FUNCTION_EXISTS=aligned_alloc /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8c9fe.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_8c9fe.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-tc0wv5\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8c9fe.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8c9fe.dir\\CheckFunctionExists.c.obj  /out:cmTC_8c9fe.exe /implib:cmTC_8c9fe.lib /pdb:cmTC_8c9fe.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_8c9fe.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8c9fe.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8c9fe.dir\\CheckFunctionExists.c.obj  /out:cmTC_8c9fe.exe /implib:cmTC_8c9fe.lib /pdb:cmTC_8c9fe.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8c9fe.dir\\CheckFunctionExists.c.obj /out:cmTC_8c9fe.exe /implib:cmTC_8c9fe.lib /pdb:cmTC_8c9fe.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_8c9fe.dir/intermediate.manifest CMakeFiles\\cmTC_8c9fe.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol aligned_alloc referenced in function main
+        cmTC_8c9fe.exe : fatal error LNK1120: 1 unresolved externals
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:414 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_NO_INTERPOSITION"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-wch118"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-wch118"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_NO_INTERPOSITION"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-wch118'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b34c8
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_NO_INTERPOSITION  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1    -fno-semantic-interposition /showIncludes /FoCMakeFiles\\cmTC_b34c8.dir\\src.c.obj /FdCMakeFiles\\cmTC_b34c8.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-wch118\\src.c
+        cl : Command line warning D9002 : ignoring unknown option '-fno-semantic-interposition'
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b34c8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b34c8.dir\\src.c.obj  /out:cmTC_b34c8.exe /implib:cmTC_b34c8.lib /pdb:cmTC_b34c8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:419 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-mfpcpa"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-mfpcpa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_ATTRIBUTE_VISIBILITY_HIDDEN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-mfpcpa'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_fe9c7
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_ATTRIBUTE_VISIBILITY_HIDDEN  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_fe9c7.dir\\src.c.obj /FdCMakeFiles\\cmTC_fe9c7.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfpcpa\\src.c
+        FAILED: CMakeFiles/cmTC_fe9c7.dir/src.c.obj 
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_ATTRIBUTE_VISIBILITY_HIDDEN  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_fe9c7.dir\\src.c.obj /FdCMakeFiles\\cmTC_fe9c7.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfpcpa\\src.c
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfpcpa\\src.c(2): error C2143: syntax error: missing ')' before '('
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfpcpa\\src.c(2): error C2091: function returns function
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfpcpa\\src.c(2): error C2143: syntax error: missing ')' before 'string'
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfpcpa\\src.c(2): error C2143: syntax error: missing '{' before 'string'
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfpcpa\\src.c(2): error C2059: syntax error: 'string'
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-mfpcpa\\src.c(2): error C2059: syntax error: ')'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:433 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-oqdega"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-oqdega"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_ATTRIBUTE_VISIBILITY_INTERNAL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-oqdega'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d0251
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_ATTRIBUTE_VISIBILITY_INTERNAL  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d0251.dir\\src.c.obj /FdCMakeFiles\\cmTC_d0251.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-oqdega\\src.c
+        FAILED: CMakeFiles/cmTC_d0251.dir/src.c.obj 
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_ATTRIBUTE_VISIBILITY_INTERNAL  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d0251.dir\\src.c.obj /FdCMakeFiles\\cmTC_d0251.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-oqdega\\src.c
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-oqdega\\src.c(2): error C2143: syntax error: missing ')' before '('
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-oqdega\\src.c(2): error C2091: function returns function
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-oqdega\\src.c(2): error C2143: syntax error: missing ')' before 'string'
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-oqdega\\src.c(2): error C2143: syntax error: missing '{' before 'string'
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-oqdega\\src.c(2): error C2059: syntax error: 'string'
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-oqdega\\src.c(2): error C2059: syntax error: ')'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:447 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_CTZ"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-3sgo15"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-3sgo15"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_BUILTIN_CTZ"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-3sgo15'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_f0441
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_BUILTIN_CTZ  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f0441.dir\\src.c.obj /FdCMakeFiles\\cmTC_f0441.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-3sgo15\\src.c
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-3sgo15\\src.c(3): warning C4013: '__builtin_ctz' undefined; assuming extern returning int
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f0441.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f0441.dir\\src.c.obj  /out:cmTC_f0441.exe /implib:cmTC_f0441.lib /pdb:cmTC_f0441.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_f0441.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f0441.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f0441.dir\\src.c.obj  /out:cmTC_f0441.exe /implib:cmTC_f0441.lib /pdb:cmTC_f0441.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f0441.dir\\src.c.obj /out:cmTC_f0441.exe /implib:cmTC_f0441.lib /pdb:cmTC_f0441.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f0441.dir/intermediate.manifest CMakeFiles\\cmTC_f0441.dir/manifest.res" failed (exit code 1120) with the following output:
+        src.c.obj : error LNK2019: unresolved external symbol __builtin_ctz referenced in function main
+        cmTC_f0441.exe : fatal error LNK1120: 1 unresolved externals
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:462 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_CTZLL"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-pf9aay"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-pf9aay"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_BUILTIN_CTZLL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-pf9aay'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b5eed
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_BUILTIN_CTZLL  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b5eed.dir\\src.c.obj /FdCMakeFiles\\cmTC_b5eed.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-pf9aay\\src.c
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-pf9aay\\src.c(3): warning C4013: '__builtin_ctzll' undefined; assuming extern returning int
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b5eed.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b5eed.dir\\src.c.obj  /out:cmTC_b5eed.exe /implib:cmTC_b5eed.lib /pdb:cmTC_b5eed.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_b5eed.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b5eed.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b5eed.dir\\src.c.obj  /out:cmTC_b5eed.exe /implib:cmTC_b5eed.lib /pdb:cmTC_b5eed.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b5eed.dir\\src.c.obj /out:cmTC_b5eed.exe /implib:cmTC_b5eed.lib /pdb:cmTC_b5eed.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_b5eed.dir/intermediate.manifest CMakeFiles\\cmTC_b5eed.dir/manifest.res" failed (exit code 1120) with the following output:
+        src.c.obj : error LNK2019: unresolved external symbol __builtin_ctzll referenced in function main
+        cmTC_b5eed.exe : fatal error LNK1120: 1 unresolved externals
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:478 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_PTRDIFF_T"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-c71b4e"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-c71b4e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_PTRDIFF_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-c71b4e'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a3704
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_PTRDIFF_T  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a3704.dir\\src.c.obj /FdCMakeFiles\\cmTC_a3704.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-c71b4e\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a3704.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a3704.dir\\src.c.obj  /out:cmTC_a3704.exe /implib:cmTC_a3704.lib /pdb:cmTC_a3704.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:506 (check_c_source_compiles)"
+      - "CMakeLists.txt:534 (check_c_source_compile_or_run)"
+    checks:
+      - "Performing Test HAVE_SSE2_INTRIN"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-uqn5de"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-uqn5de"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SSE2_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-uqn5de'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_00f8b
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_SSE2_INTRIN  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG /showIncludes /FoCMakeFiles\\cmTC_00f8b.dir\\src.c.obj /FdCMakeFiles\\cmTC_00f8b.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-uqn5de\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_00f8b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_00f8b.dir\\src.c.obj  /out:cmTC_00f8b.exe /implib:cmTC_00f8b.lib /pdb:cmTC_00f8b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:506 (check_c_source_compiles)"
+      - "CMakeLists.txt:545 (check_c_source_compile_or_run)"
+    checks:
+      - "Performing Test HAVE_SSSE3_INTRIN"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-qr00ld"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-qr00ld"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SSSE3_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-qr00ld'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_16220
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_SSSE3_INTRIN  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG /showIncludes /FoCMakeFiles\\cmTC_16220.dir\\src.c.obj /FdCMakeFiles\\cmTC_16220.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-qr00ld\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_16220.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_16220.dir\\src.c.obj  /out:cmTC_16220.exe /implib:cmTC_16220.lib /pdb:cmTC_16220.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:506 (check_c_source_compiles)"
+      - "CMakeLists.txt:559 (check_c_source_compile_or_run)"
+    checks:
+      - "Performing Test HAVE_SSE42CRC_INLINE_ASM"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-eosvkt"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-eosvkt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SSE42CRC_INLINE_ASM"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-eosvkt'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_68621
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_SSE42CRC_INLINE_ASM  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG /showIncludes /FoCMakeFiles\\cmTC_68621.dir\\src.c.obj /FdCMakeFiles\\cmTC_68621.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c
+        FAILED: CMakeFiles/cmTC_68621.dir/src.c.obj 
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_SSE42CRC_INLINE_ASM  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG /showIncludes /FoCMakeFiles\\cmTC_68621.dir\\src.c.obj /FdCMakeFiles\\cmTC_68621.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C2065: 'mov': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C2146: syntax error: missing ';' before identifier 'edx'
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C2065: 'edx': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C2146: syntax error: missing ';' before identifier 'mov'
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C2146: syntax error: missing ';' before identifier 'eax'
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C2065: 'eax': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C2146: syntax error: missing ';' before identifier 'crc32'
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C2065: 'crc32': undeclared identifier
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C2146: syntax error: missing ';' before identifier 'val'
+        C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eosvkt\\src.c(4): error C2143: syntax error: missing ';' before '}'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:506 (check_c_source_compiles)"
+      - "CMakeLists.txt:572 (check_c_source_compile_or_run)"
+    checks:
+      - "Performing Test HAVE_SSE42CRC_INTRIN"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-6w4egc"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-6w4egc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SSE42CRC_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-6w4egc'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_071b2
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_SSE42CRC_INTRIN  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG /showIncludes /FoCMakeFiles\\cmTC_071b2.dir\\src.c.obj /FdCMakeFiles\\cmTC_071b2.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-6w4egc\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_071b2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_071b2.dir\\src.c.obj  /out:cmTC_071b2.exe /implib:cmTC_071b2.lib /pdb:cmTC_071b2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:506 (check_c_source_compiles)"
+      - "CMakeLists.txt:588 (check_c_source_compile_or_run)"
+    checks:
+      - "Performing Test HAVE_SSE42CMPSTR_INTRIN"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-188pvu"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-188pvu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SSE42CMPSTR_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-188pvu'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4f6f3
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_SSE42CMPSTR_INTRIN  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG /showIncludes /FoCMakeFiles\\cmTC_4f6f3.dir\\src.c.obj /FdCMakeFiles\\cmTC_4f6f3.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-188pvu\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4f6f3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4f6f3.dir\\src.c.obj  /out:cmTC_4f6f3.exe /implib:cmTC_4f6f3.lib /pdb:cmTC_4f6f3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:506 (check_c_source_compiles)"
+      - "CMakeLists.txt:604 (check_c_source_compile_or_run)"
+    checks:
+      - "Performing Test HAVE_PCLMULQDQ_INTRIN"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-198xhd"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-198xhd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_PCLMULQDQ_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-198xhd'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2943a
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_PCLMULQDQ_INTRIN  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG /showIncludes /FoCMakeFiles\\cmTC_2943a.dir\\src.c.obj /FdCMakeFiles\\cmTC_2943a.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-198xhd\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2943a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2943a.dir\\src.c.obj  /out:cmTC_2943a.exe /implib:cmTC_2943a.lib /pdb:cmTC_2943a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:506 (check_c_source_compiles)"
+      - "CMakeLists.txt:620 (check_c_source_compile_or_run)"
+    checks:
+      - "Performing Test HAVE_AVX2_INTRIN"
+    directories:
+      source: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-uwvzl2"
+      binary: "C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-uwvzl2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3 "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:static,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_AVX2_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zach/Documents/Websites/_GITHUB/xenesense-rust/vcpkg_installed/vcpkg/blds/zlib-ng/x64-windows-static-rel/CMakeFiles/CMakeScratch/TryCompile-uwvzl2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7731b
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_AVX2_INTRIN  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  /W3   /D_DEBUG /MTd /Z7 /Ob0 /Od /RTC1  -DZLIB_DEBUG /showIncludes /FoCMakeFiles\\cmTC_7731b.dir\\src.c.obj /FdCMakeFiles\\cmTC_7731b.dir\\ /FS -c C:\\Users\\zach\\Documents\\Websites\\_GITHUB\\xenesense-rust\\vcpkg_installed\\vcpkg\\blds\\zlib-ng\\x64-windows-static-rel\\CMakeFiles\\CMakeScratch\\TryCompile-uwvzl2\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7731b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7731b.dir\\src.c.obj  /out:cmTC_7731b.exe /implib:cmTC_7731b.lib /pdb:cmTC_7731b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
